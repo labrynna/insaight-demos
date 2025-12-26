@@ -9,10 +9,10 @@
     --primary-accent-light: #C83A47;
     --text-primary: #1A1A1A;
     --text-secondary: #666666;
+    --text-footer: #CCCCCC;
     --background: #F5F5F5;
     --surface: #FFFFFF;
     --border: #D1D5DB;
-    --nav-bg: #FAFAFA;
 }
 
 /* === RESET AND BASE STYLES === */
@@ -206,8 +206,7 @@ footer {
 
 footer p {
     font-size: 14px;
-    color: var(--text-secondary);
-    filter: brightness(2);
+    color: var(--text-footer);
 }
 
 /* === RESPONSIVE DESIGN === */
