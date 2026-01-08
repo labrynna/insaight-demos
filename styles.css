@@ -139,6 +139,11 @@ main {
     transform: translateY(-2px);
 }
 
+/* For cards that are divs (with buttons) */
+div.demo-card {
+    cursor: default;
+}
+
 .demo-image {
     width: 100%;
     height: 250px;
@@ -192,6 +197,49 @@ main {
 .demo-card:hover .demo-link-text {
     color: var(--primary-accent-hover);
     transform: translateX(3px);
+}
+
+/* === DEMO BUTTONS === */
+.demo-buttons {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.demo-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border: 2px solid;
+}
+
+.demo-button.primary {
+    background-color: var(--primary-accent);
+    color: var(--surface);
+    border-color: var(--primary-accent);
+}
+
+.demo-button.primary:hover {
+    background-color: var(--primary-accent-hover);
+    border-color: var(--primary-accent-hover);
+    transform: translateY(-1px);
+}
+
+.demo-button.secondary {
+    background-color: var(--surface);
+    color: var(--primary-accent);
+    border-color: var(--primary-accent);
+}
+
+.demo-button.secondary:hover {
+    background-color: var(--primary-accent);
+    color: var(--surface);
+    transform: translateY(-1px);
 }
 
 /* === FOOTER === */
