@@ -56,6 +56,12 @@ nav {
     gap: 12px;
 }
 
+.logo-container a {
+    display: inline-block;
+    line-height: 0;
+    cursor: pointer;
+}
+
 .logo {
     height: 40px;
     width: auto;
