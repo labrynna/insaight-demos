@@ -139,19 +139,9 @@ main {
     transform: translateY(-2px);
 }
 
-/* For cards that are links */
-a.demo-card {
-    cursor: pointer;
-}
-
 /* For cards that are divs (with buttons) */
 div.demo-card {
     cursor: default;
-}
-
-div.demo-card:hover {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    transform: translateY(-2px);
 }
 
 .demo-image {
